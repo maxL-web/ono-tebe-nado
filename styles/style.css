@@ -44,7 +44,7 @@ ul .header__menu-item:first-child {
 
 .address {
 	justify-self: end;
-	max-width: 240px;
+	max-width: 237px;
 }
 
 .header__address {
@@ -150,7 +150,7 @@ border: #FFF 1px solid;
 /* lotss */
 
 .lots {
-	padding: 178px 50px;
+	padding: 179px 50px 185px 50px;
 	max-width: 1440px;
 	display: flex;
 	flex-direction: column;
@@ -235,5 +235,52 @@ border: #FFF 1px solid;
 	padding-left: 40px;
 	color: #000;
 	font-size: 20px;
-	font-size: 25px;
+	text-underline-position:under;
 }
+
+/* about */
+
+.about {
+	padding: 0px 50px;
+	max-width: 1440px;
+	margin: 0 auto;
+	color: black;
+}
+
+.about__column {
+	display: grid;
+	grid-template-columns: 430px 1fr;
+	place-items: center;
+	gap:25px;
+}
+
+.about__logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:25px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+
+.about__img {
+	width: 148px;
+}
+
+.about__text{
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	grid-column: 2 / 4;
+	font-size: 20px;
+}
+
+.about__title {
+	justify-self:flex-start;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	}
