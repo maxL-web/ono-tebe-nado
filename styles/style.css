@@ -27,7 +27,7 @@ ul .header__menu-item:first-child {
 	line-height: normal;
 }
 
-.header__link {
+.header__menu-link {
 	text-underline-position:under;
 }
 
@@ -113,7 +113,7 @@ ul .header__menu-item:first-child {
 	letter-spacing: normal;
 }
 
-.cover__description{
+.cover__description {
 	position: relative;
 	z-index: 1;
 	display: flex;
@@ -130,7 +130,7 @@ ul .header__menu-item:first-child {
 	word-spacing:18px;
 }
 
-.button_bet{
+.button_bet {
 border: #FFF 1px solid;
 padding: 12px 32px;
 color:#fff;
@@ -262,7 +262,7 @@ background: inherit;
 	width: 148px;
 }
 
-.about__text{
+.about__text {
 	display: flex;
 	flex-direction: column;
 	grid-column: 2 / 4;
